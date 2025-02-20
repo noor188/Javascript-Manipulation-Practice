@@ -24,4 +24,20 @@ Practice project to increase skills working with arrays, objects, and arrays of 
 ### **Ticket 3: Advanced Array Manipulation**
 1. slice()
 2. splice()
+3. concat()
+4. sort()
+   
+### **Ticket 4: Working with Objects**
+1. Create an object
+2. Update a property of the object
+3. Add a new property to the object
+4. Delete a property from the object
+5. Loop through he properties of the object
+
+### **Ticket 5: Combining Arrays and Objects**
+1. Create an array of objects
+2. Create a new array that contains only some properties of the objects
+3. Filter the array to only include onjects in a specific state
+4. Sort the objects by some property in ascending order
+   
 
