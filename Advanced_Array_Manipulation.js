@@ -20,3 +20,17 @@ inventory3.splice(3,0, 'PC');
 console.log("Added new equipment to the inventory starting at index 3: ", inventory3);
 
 // 4. Merge two arrays of office equipment into one.
+let officeEquipment1 = ['Printer', 'Scanner', 'Desk'];
+let officeEquipment2 = ['Chair', 'Lamp', 'Notebook'];
+
+//let mergedEquipment = [...officeEquipment1, ...officeEquipment2];
+let mergedEquipment = officeEquipment1.concat(officeEquipment2);
+console.log("officeEquipment1 array: ", officeEquipment1);
+console.log("officeEquipment2 array: ", officeEquipment2)
+console.log("Merged array: ", mergedEquipment);
+
+// 5. Sort the list of sales amount in descending order
+let sales1 = [500, 1000, 750, 2000, 1250];
+console.log("Sales1 list before sorting: ", sales1);
+sales1.sort((a,b) => a > b);
+console.log("Sales1 list after sorting: ", sales1);
